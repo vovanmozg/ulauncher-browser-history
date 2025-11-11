@@ -6,9 +6,33 @@
   "developer_name": "Vladmir Polukhin",
   "icon": "images/icon.png",
   "preferences": [
-    { "id": "keyword", "type": "keyword", "name": "Keyword", "description": "Trigger keyword", "default_value": "ch" },
-    { "id": "max_results", "type": "text", "name": "Maximum results", "description": "How many to display", "default_value": "20" },
-    { "id": "browser_cmd", "type": "text", "name": "URL opening command", "description": "for example: google-chrome --new-tab", "default_value": "google-chrome --new-tab" },
-    { "id": "history_path", "type": "text", "name": "Path to History database", "description": "Leave empty for auto-detection", "default_value": "" }
+    {
+      "id": "keyword",
+      "type": "keyword",
+      "name": "Keyword",
+      "description": "Trigger keyword",
+      "default_value": "u"
+    },
+    {
+      "id": "max_results",
+      "type": "text",
+      "name": "Maximum results",
+      "description": "How many to display",
+      "default_value": "20"
+    },
+    {
+      "id": "browser_cmd",
+      "type": "text",
+      "name": "URL opening command",
+      "description": "for example: google-chrome --new-tab",
+      "default_value": "google-chrome --new-tab"
+    },
+    {
+      "id": "history_path",
+      "type": "text",
+      "name": "Path to History database",
+      "description": "Leave empty for auto-detection",
+      "default_value": ""
+    }
   ]
 }
